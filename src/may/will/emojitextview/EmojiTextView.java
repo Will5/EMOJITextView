@@ -1,8 +1,5 @@
 package may.will.emojitextview;
 
-
-import org.apache.commons.lang.StringEscapeUtils;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
@@ -21,11 +18,7 @@ public class EmojiTextView extends TextView {
 	}
 	
 	public final void setTextWithEmojis(String text) {
-		this.setText(unescape(text));
-	}
-	
-	private final String unescape (String text) {
-		return StringEscapeUtils.unescapeJava(text);
+		this.setText(EmojiHandler.decode(text));
 	}
 
 }
