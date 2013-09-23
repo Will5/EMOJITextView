@@ -9,6 +9,7 @@ public class EmojiTextView extends TextView {
 	public EmojiTextView(Context context) {
 		super(context);
 	}
+
 	public EmojiTextView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
