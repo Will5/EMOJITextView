@@ -18,7 +18,7 @@ public class EmojiEditText extends EditText {
 		super(context, attrs, defStyle);
 	}
 	
-	public final String getTextWithEmojis(String text) {
+	public final String getTextWithEmojis() {
 		return EmojiHandler.encode(this.getText().toString());
 	}
 	
