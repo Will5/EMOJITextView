@@ -1,4 +1,5 @@
 INDEX VERSION 1.126+/Users/williammay/Development/EMOJITextView/.metadata/.plugins/org.eclipse.jdt.core
-183194706.index
-3615329751.index
+1719034402.index
+2609760299.index
 2644604848.index
+9882812.index
